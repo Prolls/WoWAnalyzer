@@ -72,6 +72,11 @@ const spells: number[] = [
   SPELLS.TRANQUILITY_HEAL.id,
   //endregion
 
+
+  //region Warrior
+  SPELLS.SHIELD_CHARGE_UNLIMITED_DISTANCE.id  // Shield Charge
+
+
   //region trinket
   //endregion
 ];

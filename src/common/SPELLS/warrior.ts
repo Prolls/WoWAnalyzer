@@ -473,6 +473,22 @@ const spells = spellIndexableList({
     name: 'Rage from auto attacks',
     icon: 'ability_racial_avatar',
   },
+  SHIELD_CHARGE: {
+    id: 385952,
+    name: 'Shield Charge',
+    icon: 'ability_warrior_shieldcharge',
+  },
+  SHIELD_CHARGE_TALENT: {
+    id: 385953,
+    name: 'Shield Charge',
+    icon: 'ability_warrior_shieldcharge',
+  },
+  SHIELD_CHARGE_UNLIMITED_DISTANCE: {
+    id: 385954,
+    name: 'Shield Charge',
+    icon: 'ability_warrior_shieldcharge',
+  },
+
   //Mitigation Spells
   RENEWED_FURY_TALENT_BUFF: {
     id: 202289,

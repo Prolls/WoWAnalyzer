@@ -1,6 +1,6 @@
 import { formatMilliseconds, formatPercentage } from 'common/format';
 import SPELLS from 'common/SPELLS';
-import { TALENTS_MAGE, TALENTS_PRIEST } from 'common/TALENTS';
+import { TALENTS_MAGE, TALENTS_PRIEST, TALENTS_WARRIOR } from 'common/TALENTS';
 import BLOODLUST_BUFFS from 'game/BLOODLUST_BUFFS';
 import Analyzer, { Options } from 'parser/core/Analyzer';
 import Combatant from 'parser/core/Combatant';
@@ -88,6 +88,13 @@ class Haste extends Analyzer {
 
     //region Shaman
     [SPELLS.ELEMENTAL_BLAST_HASTE.id]: 0.03,
+    //endregion
+
+    //region Warrior
+    [TALENTS_WARRIOR.WILD_STRIKES_TALENT.id]: 
+    {
+      hastePerStack: 0.01,
+    },
     //endregion
   };
 

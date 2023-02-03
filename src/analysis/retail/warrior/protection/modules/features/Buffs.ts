@@ -20,6 +20,10 @@ class Buffs extends CoreAuras {
         timelineHighlight: true,
       },
       {
+        spellId: TALENTS.WILD_STRIKES_TALENT.id,
+        timelineHighlight: true,
+      },
+      {
         spellId: TALENTS.LAST_STAND_TALENT.id,
         timelineHighlight: true,
       },
